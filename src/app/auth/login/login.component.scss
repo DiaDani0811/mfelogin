@@ -1,0 +1,71 @@
+.bg-cover{
+    padding: 0px;
+}
+
+.bg-cover-lft-img {
+    background-image: url('/assets/images/loginscreen.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100%;
+}
+
+#date{
+    font-family: 'Poppins-Regular';
+    font-size: 185%;
+    padding-top: 28px;
+    padding-left: 25px;
+    position: fixed;
+    color: #ffffff;
+}
+
+#date_day {
+    font-size: 110%;
+    padding-top: 68px;
+    padding-left: 25px;
+    position: fixed;
+    color: #ffffff;
+    font-family: 'Poppins-Regular';
+}
+
+#img_content_line1 {
+    font-family: 'Poppins-Medium';
+    font-size: 30px;
+    padding-top: 150px;
+    padding-left: 15px;
+    color: rgb(255, 255, 255);
+    position: fixed;
+}
+
+#img_content_line2 {
+    font-family: 'Poppins-Medium';
+    font-size: 30px;
+    padding-top: 200px;
+    padding-left: 25px;
+    position: fixed;
+    color: rgb(255, 255, 255);
+}
+
+#img_content_line3 {
+    font-family: 'Poppins-Medium';
+    font-size: 15px;
+    padding-top: 264px;
+    padding-left: 25px;
+    position: fixed;
+    color: #ffffff;
+}
+.form-group{
+    margin-bottom: 15px;
+    padding: 0 20px;
+}
+.text-box-size {
+    height: 50px;
+    border: 2px solid #e5e5e5;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+.input-icon>.form-control {
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0px;
+}
