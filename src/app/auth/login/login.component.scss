@@ -61,7 +61,7 @@
 .text-box-size {
     height: 50px;
     border: 2px solid #e5e5e5;
-    font-size: 1.4rem;
+    font-size: 18px;
     font-weight: 400;
 }
 .input-icon>.form-control {
@@ -69,3 +69,39 @@
     padding-right: 20px;
     border-radius: 0px;
 }
+input::placeholder {
+    color: gray;
+    font-size: 16px;
+    opacity: 1; /* Ensure visibility in some browsers */
+  }
+
+  .btn-radius{
+    width: 100%;
+    font-size: 16px;
+    height: 50px;
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    border-radius: 0px;
+  }
+
+  @media (max-width: 600px) {
+    .col-8{
+        width: 100vw;
+        display: none;
+    }
+    .col-4{
+        width: 100vw;
+    }
+  }
+
+
+  
+  @media (max-width: 768px) {
+    .col-8{
+        width: 100vw;
+    }
+    .col-4{
+        width: 100vw;
+    }
+  }
