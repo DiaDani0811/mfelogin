@@ -6,8 +6,8 @@ const routes: Routes = [
 
   {path : '', redirectTo : 'login', pathMatch : 'full'},
   { path: 'login', loadChildren: () => import('./auth/login/login.module').then((m) => m.LoginModule) },
-  { path: 'forgotPassword', loadChildren: () => import('./auth/login/login.module').then((m) => m.LoginModule) },
-  { path: 'sclList', loadChildren: () => import('./auth/login/login.module').then((m) => m.LoginModule) },
+  { path: 'forgotPassword', loadChildren: () => import('./auth/forgotpassword/forgotpassword.module').then((m) => m.ForgotpasswordModule) },
+  { path: 'sclList', loadChildren: () => import('./auth/scllist/scllist.module').then((m) => m.ScllistModule) },
 
 ];
 
